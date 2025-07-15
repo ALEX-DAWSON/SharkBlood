@@ -6,6 +6,8 @@
   --now-playing-bar-height: 5.625rem;
   --padding-now-playing-bar: 0.25rem;
   --border-radius-now-playing-bar: 0.5rem;
+  /* Special FX filter */
+  --glitch: drop-shadow(1px 1px 0px rgba(var(--spice-rgb-button))) drop-shadow(-0.5px -0.5px 0px rgba(var(--spice-rgb-button-active)));
 }
 .Root__now-playing-bar,
 .Root__now-playing-bar footer {
@@ -113,7 +115,7 @@ h1 {
   width: 20px;
 }
 
-/* Removing gradients */
+/* changing gradients to fit colour scheme */
 .main-actionBarBackground-background {
   background-color: unset !important;
   background-image: none;
@@ -121,7 +123,7 @@ h1 {
 
 .main-entityHeader-backgroundColor {
   background-color: unset !important;
-  background-image: linear-gradient(to bottom, rgba(var(--spice-rgb-button-active)), transparent 60%);
+  background-image: linear-gradient(to bottom, rgba(var(--spice-rgb-button-active), 0.5), transparent);
 }
 
 /* Cover shadow */
@@ -137,7 +139,7 @@ h1 {
 
 /* Playing icon */
 .main-trackList-playingIcon {
-  filter: saturate(0%);
+  filter: var(--glitch);
 }
 
 /* Playlist like button */
