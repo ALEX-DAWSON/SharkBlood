@@ -1,5 +1,7 @@
 # SharkRed
 
+### Theme for Spicetify
+
 ## Screenshots
 ![SharkRed](./screenshot.png)
 
