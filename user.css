@@ -114,10 +114,14 @@ h1 {
 }
 
 /* Removing gradients */
-.main-entityHeader-backgroundColor,
 .main-actionBarBackground-background {
   background-color: unset !important;
   background-image: none;
+}
+
+.main-entityHeader-backgroundColor {
+  background-color: unset !important;
+  background-image: linear-gradient(to bottom, rgba(var(--spice-rgb-button-active)), transparent 60%);
 }
 
 /* Cover shadow */
@@ -128,7 +132,7 @@ h1 {
 
 /* Top bar */
 .main-topBar-background {
-  background-color: #3a3d42 !important;
+  background-color: rgba(var(--spice-rgb-button)) !important;
 }
 
 /* Playing icon */

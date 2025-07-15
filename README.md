@@ -1,9 +1,10 @@
-# SharkRed
+# SharkBlood
 
 ### Theme for Spicetify
 
 ## Screenshots
-![SharkRed](./screenshot.png)
+![Base](./Base.png)
+![BloodnWater](./BloodnWater.png)
 
 ## More
 Author: https://github.com/ALEX-DAWSON
