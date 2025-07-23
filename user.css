@@ -9,6 +9,11 @@
   /* Special FX filter */
   --glitch: drop-shadow(1px 1px 0px rgba(var(--spice-rgb-button))) drop-shadow(-0.5px -0.5px 0px rgba(var(--spice-rgb-button-active)));
 }
+
+* {
+  transition: 150ms;
+}
+
 .Root__now-playing-bar,
 .Root__now-playing-bar footer {
   border-radius: var(--border-radius-1) !important;
